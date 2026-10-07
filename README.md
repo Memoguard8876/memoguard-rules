@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.svg" alt="MemoGuard logo" width="112"></p>
+
 # memoguard-rules
 
 Versioned privacy policies for MemoGuard. This is a Go library with no network, Stellar parser, CLI, or GitHub-specific code.
