@@ -1,0 +1,14 @@
+{
+  "version": "custom-government-id-v1",
+  "rules": [
+    {
+      "id": "custom.government_id",
+      "description": "Configured government ID format in public transaction data",
+      "remediation": "Replace the ID with an opaque reference before submitting",
+      "pattern": "\\bGOV-[0-9]{8}\\b",
+      "scopes": ["transaction.memo.*", "transaction.operations.*"],
+      "severity": "block",
+      "confidence": "high"
+    }
+  ]
+}
