@@ -25,4 +25,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for changes, [SECURITY.md](SECURITY.md) f
 
 With Go 1.24 or newer, run `go test ./...` and `go vet ./...`; this library needs no network service or credentials.
 
+Documentation: [MemoGuard Docs](https://cjay-1.gitbook.io/memoguard-docs/)
+
 The public [product requirements](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/PRD.md), [architecture](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/ARCHITECTURE.md), and [Wave plan](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/WAVE.md) live in `memoguard-cli`. Maintainers: [Memoguard8876](https://github.com/Memoguard8876). Discuss public work in [issues](https://github.com/Memoguard8876/memoguard-rules/issues); report vulnerabilities privately through SECURITY.md.
