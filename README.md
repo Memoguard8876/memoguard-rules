@@ -2,6 +2,8 @@
 
 # memoguard-rules
 
+[![Go CI](https://github.com/Memoguard8876/memoguard-rules/actions/workflows/ci.yml/badge.svg)](https://github.com/Memoguard8876/memoguard-rules/actions/workflows/ci.yml)
+
 Versioned privacy policies for MemoGuard. This is a Go library with no network, Stellar parser, CLI, or GitHub-specific code.
 
 ## Owns
@@ -21,4 +23,6 @@ Government ID formats vary by jurisdiction, so no broad ID pattern is enabled by
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for changes, [SECURITY.md](SECURITY.md) for private vulnerability reports, and [LICENSE](LICENSE) for MIT terms.
 
-Product PRD and architecture live in the parent `memguard/docs` folder in the local workspace.
+With Go 1.24 or newer, run `go test ./...` and `go vet ./...`; this library needs no network service or credentials.
+
+The public [product requirements](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/PRD.md), [architecture](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/ARCHITECTURE.md), and [Wave plan](https://github.com/Memoguard8876/memoguard-cli/blob/main/product/docs/WAVE.md) live in `memoguard-cli`. Maintainers: [Memoguard8876](https://github.com/Memoguard8876). Discuss public work in [issues](https://github.com/Memoguard8876/memoguard-rules/issues); report vulnerabilities privately through SECURITY.md.
